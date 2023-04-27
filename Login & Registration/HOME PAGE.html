@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <title>ATIkurunegala</title>
+    <link rel="stylesheet"href="style.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <h2 class="logo">SLIATE</h2>
+        <nav class="navigation">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+            <button class="btnLogin-popup">Login</button>
+
+        </nav>
+    </header>
+
+    
+
+    <div class="wrapper">
+        <span class="close"><ion-icon name="close-outline"></ion-icon></span>
+        <div class="form-boxlogin">
+            <h2>Login</h2>
+            <form action="#">
+
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+                    <input type="text" required>
+                    <label>Email</label>
+                </div>
+
+
+                <div class="input-box">
+                    <input type="password" id="myInput" required >
+                    <span class="icon-eye" onclick="myfunction()"><ion-icon name="eye-outline" id="hide1"></ion-icon>
+                                           <ion-icon name="eye-off-outline" id="hide2"></ion-icon></span>
+                    <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+                    <label>password</label>
+                </div>
+
+
+                <div class="remember-forgot">
+                    <a href="#">Forgot password?</a>
+                </div>
+
+
+                <button type="submit" class="btn">Login</button> 
+                <div class="Login-register"><p>Don't have an account? <a href="#" class="register-link">Register</a></p></div>
+            </form>
+        </div>
+
+
+
+
+
+        <div class="form-boxregister">
+            <h2 class="Registation">Registation</h2>
+            <form action="#">
+
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="person-outline"></ion-icon></span>
+                    <input type="Username" required>
+                    <label>Enter your name</label>
+                </div>
+
+
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+                    <input type="text" required>
+                    <label>Enter your email</label>
+                </div>
+                
+                <div class="input-box">
+                    <input type="password" id="myInput1" required >
+                    <span class="icon-eye" onclick="myfunction1()"><ion-icon name="eye-outline" id="hide11"></ion-icon>
+                                           <ion-icon name="eye-off-outline" id="hide22"></ion-icon></span>
+                    <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+                    <label>Create password</label>
+                </div>
+
+
+                <div class="input-box">
+                  <input type="password" id="myInput2" required >
+                    <span class="icon-eye" onclick="myfunction2()"><ion-icon name="eye-outline" id="hide111"></ion-icon>
+                                           <ion-icon name="eye-off-outline" id="hide222"></ion-icon></span>
+                    <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+                    <label>Confirm password</label>
+                </div>
+
+
+                <div class="remember-forgot">
+                    <label><input type="checkbox">
+                    I agree to the terms & condition</label>
+                </div>
+
+
+                <button type="submit" class="btn">Register</button> 
+                <div class="Login"><p>Already have an account?
+                    <a href="#" class="Login-Link">Login</a></p>
+                </div>
+
+
+                
+            </form>
+        </div>
+        
+    </div>
+
+
+<script src="script.js"></script>
+
+
+
+
+</body>
+</html>
