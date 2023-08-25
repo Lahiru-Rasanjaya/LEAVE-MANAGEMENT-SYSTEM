@@ -1,0 +1,143 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <title>ATIkurunegala</title>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
+
+</head>
+<body>
+    
+<script src="script.js?v=<?php echo time(); ?>"></script>
+
+
+
+<div class="name"></div>
+
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+   
+}
+
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 23vh;
+    background: url('SLIATEnavi.jpg')no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  width: 100%;
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.HOME{
+  margin-left: 1%;
+}
+.login{
+   margin-right: 1%;
+}
+/*green color*/
+.HOME:hover {
+    background-color: #04AA6D;
+}
+.login:hover {
+    background-color: #aa041d;
+}
+.msg{  
+    margin: 1%;
+    font-size: 17px;
+    margin-left: 3%;
+    margin-right: 3%;
+    text-align: center;
+}
+table{
+    height: 60px;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 3%;
+    font-size: 18px;
+    border-color: #ffffff;
+    color: #ffffff;
+    background:#4b7aa0;    
+}
+.sentB{
+    color: white;
+    background:#4b7aa0; 
+    height: 40px;
+    width: 110px;
+}
+.sentB a{    
+    text-decoration: none;
+    color: white;
+}   
+    
+       
+.sentB:hover {
+    background-color: #04AA6D;
+            
+}
+
+</style>
+
+<body>
+<ul>
+  <li class="HOME"><a class="active" href="../HOMEpage.php">Home</a></li>
+  <li class="HOME"><a href="#news">News</a></li>
+  <li class="HOME"><a href="#contact">Contact</a></li>
+  <li class="HOME"><a href="#about">About</a></li>
+  <li style="float:right" class="login"><a href="../HOMEpage.php"><span class="icon"><ion-icon name="person-outline"></ion-icon></span>Logout</a></li>
+ 
+</ul>
+
+
+
+
+<div class="senttable">
+    <form class="sentfrom">
+        <table border="1">
+            <tr>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;Your entered information has been sent</td>
+                <td align="center">Pending...</td>
+                <td align="center"><button class="sentB"><a href="LAlog.in.php">View Application</a></button></td>
+            </tr>
+        </table>
+    </form>
+</div>
+
+<br>
+<hr>
+
+<div class="msg">
+    Your entered information has been sent.The entered information will be checked and will be sent via this web page or via a text message to your email account in the future.
+</div>
+
+</body>
+</html>

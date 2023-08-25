@@ -1,0 +1,451 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    background-color: #e7fafd  ;  
+    background: url('17.jpg')no-repeat; 
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+  
+
+}
+/*SLIATE logo and image*/
+.SLIATE{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 33vh;
+    background: url('SLIATE.jpg')no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/*application leave html cord connect
+
+.LEAVE{
+    background-color: #0a1547;
+    height: 80px;
+    color: white;
+    text-align: center;
+    font-size: 26px;
+    padding: 10px;
+}
+*/
+/*textbox*/
+.wrapper label{
+    width: 160px;
+    display: inline-block;
+    font-weight: 550;
+}
+/*frame 1*/
+.wrapper{
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 20px;
+    position: relative;
+    background: transparent;
+    border:2px solid rgba(255,255,255,.5);
+    border-radius: 10px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);   
+    display: flex;
+    overflow: hidden;
+}
+
+/*TEXTBOX align*/
+.wrapper form{
+    margin: 80px;
+    border: 100px;
+    padding-left: 25%;
+}
+/*YOUR DETAISL*/
+.topic{
+    margin: -1px;
+    margin-left: -1%;
+    position: absolute;
+    padding: 5px;
+    width: 14%;
+    font-size: 1.3em;
+    color: #ffffff;
+    border:2px solid rgba(255, 255, 255, 0.945);
+    background-color: #383838;
+    
+   
+}
+.wrapper1 label{
+    width: 300px;
+    display: inline-block;
+    font-weight: 550;
+}
+/*frame 2*/
+.wrapper1{
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 20px;
+    position: relative;
+    background: transparent;
+    border:2px solid rgba(255,255,255,.5);
+    border-radius: 10px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);   
+    display: flex;
+    overflow: hidden;
+   
+}
+.wrapper1 form{
+    margin: 80px;
+    border: 100px;
+    padding-left: 1%;
+}
+/*DETAILS OF LEAVE REQUESTS*/
+.topic1{
+    margin: -1px;
+    margin-left: -1%;
+     position: absolute;
+     padding: 5px;
+     width: 25.5%;
+    font-size: 1.3em;
+    color: #ffffff;
+    border:2px solid rgba(255, 255, 255, 0.945);
+    background-color: #383838;
+    
+   
+}
+
+
+.input-boxID{
+    height: 45px;
+    display: flex;
+    position: relative;    
+}
+.input-boxID input{
+    height: 100%;
+    width: 320px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+    border-color: #b8b5b5;
+    color: #000000;
+    background: #ffffff;
+    border-radius: 5px;
+    
+}
+.input-box{
+    height: 45px;
+    display: flex;
+    position: relative;
+}
+
+.input-box input{
+    height: 100%;
+    width: 250px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+    border-color: #b8b5b5;
+    color: #000000;
+    background: #ffffff;
+    border-radius: 5px;
+  
+    
+}
+.Sliate-ID-input-box{
+    height: 45px;
+    display: flex;
+    position: relative;
+}
+.Sliate-ID-input-box input{
+    height: 100%;
+    width: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+    border-color: #b8b5b5;
+    color: #000000;
+    background: #ffffff;
+    border-radius: 5px;
+}
+
+
+.wrapper .input-box:nth-child(2){
+    margin-top: 40px;
+}
+.wrapper .input-box:nth-child(3){
+    margin-top: 20px;
+}
+.wrapper .input-box:nth-child(4){
+    margin-top: 20px;
+}
+.wrapper .input-box:nth-child(5){
+    margin-top: 20px;
+}
+.wrapper1 .input-box2:nth-child(2){
+    margin-top: 20px;
+}
+.wrapper1 .input-box3:nth-child(3){
+    margin-top: 20px;
+}
+.wrapper1 .input-box4:nth-child(4){
+    margin-top: 20px;
+}
+.wrapper1 .input-box5:nth-child(5){
+    margin-top: 20px;
+}
+.wrapper1 .input-box6:nth-child(6){
+    margin-top: 20px;
+}
+.wrapper1 .input-box7:nth-child(7){
+    margin-top: 20px;
+}
+
+
+/*blur EX ID NO*/
+.input-boxID b{
+   position: absolute;
+   top: 50%;
+   left: 178px;
+   pointer-events: none;
+   color: #bbb9b9;
+   transform: translateY(-50%);
+}
+.input-boxID input:valid ~ b{
+    opacity: 0;
+}
+/*blur EX ID NO*/
+
+.wrapper1 .submit{
+    margin-left: 94%;
+    margin-top: 1%;
+    width: 100px;
+    padding: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    
+}
+.submit:hover {
+    background-color: #04AA6D;
+}
+
+
+
+
+/*details of leave requests*/
+.input-box1, .input-box2, .input-box3, .input-box4, .input-box5{
+    height: 45px;
+    display: flex;
+    position: relative;
+    
+}
+.input-box1 input{
+    height: 100%;
+    width: 160px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+    border-color: #ffffff;
+    color: #000000;
+    background: #f3f3f3;
+    border-radius: 5px;
+    margin-left: 10%;
+    
+    
+}
+/*
+.input-box1 b{
+    position: absolute;
+    top: 50%;
+    left: 328px;
+    pointer-events: none;
+   color: #c4c4c4;
+   transform: translateY(-50%);
+}
+.input-box1 input:valid ~ b{
+    opacity: 0;
+}
+.select1{
+    left: 405px;
+    margin: -25px;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    height:  50px; 
+    width: 90px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 5px;
+}
+
+.nofd1{
+    position: absolute;
+    left: 500px;
+}
+.select11{
+    left: 600px;
+    margin: -25px;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    height:  50px; 
+    width: 90px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 5px;
+}
+*/
+
+.input-box2 input{
+    height: 100%;
+    width:  160px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+    border-color: #ffffff;
+    color: #000000;
+    background: #f3f3f3;
+    border-radius: 5px;
+    margin-left: 10%;
+    
+}
+.input-box3 input{
+    height: 100%;
+    width: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+    border-color: #ffffff;
+    color: #000000;
+    background: #f3f3f3;
+    border-radius: 5px;
+    margin-left: 15%;
+    
+}
+.input-box4 input{
+    height: 100%;
+    width: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+    border-color: #ffffff;
+    color: #000000;
+    background: #f3f3f3;
+    border-radius: 5px;
+    margin-left: 15%;
+    
+}
+.input-box5 input{
+    height: 100%;
+    width: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+    border-color: #ffffff;
+    color: #000000;
+    background: #f3f3f3;
+    border-radius: 5px;
+    margin-left: 15%;
+}
+.input-box2 input{
+    color: rgb(190, 2, 2);
+    text-align: center;
+    font-size: 130%;
+}
+
+
+table {
+    
+    border-color: #ffffff;
+  }
+
+th, td{
+    align-items: center;
+    height: 65px;
+    padding-right: 10px;
+    font-weight: 500;
+   
+}
+.align{
+    padding-left: 8%;
+
+}
+
+th{
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+b{
+        position: absolute;
+        top: 50%;
+        left: 290px;
+        pointer-events: none;
+       color: #b11717;
+       transform: translateY(-50%);
+
+}
+.input-box3A input:valid ~ b{
+    opacity: 0;
+}
+
+.Lbtn{
+    margin-top: -1%;
+    margin-left: -12%;
+    width: 25%;
+    height: 115%;
+    background-color: #003300;
+    color: white;
+    
+}
+.Lbtn:hover{
+    background-color: #04AA6D;
+}
+.loginerror{
+    background: red;
+    text-align: center;
+    color: white;
+    margin-top: 4%;
+    margin-bottom: 2%;
+    padding: 5px;
+}
+
+.text1{
+    
+    margin-top: 2%;
+    padding: 1%;
+    font-size: 18px;
+    border-color: #ffffff;
+    color: #000000;
+    background: #f3f3f3;
+    border-radius: 5px;
+
+   
+}
+
+.table1{
+    width: 100%;
+}
+.table2{
+    width: 60%;
+}
+input[type="data"]{
+    background: #b11717;
+    color: red;
+}
+
+.input-box1 input{
+    text-align: center;
+ 
+}
+textarea{
+    display: block;
+    resize: none;
+    border:1.5px solid #b2b2b2;
+    border-radius: 5px;
+}
